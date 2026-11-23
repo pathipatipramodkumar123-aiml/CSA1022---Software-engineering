@@ -1,0 +1,27 @@
+EXPERIMENT: SUM OF DIGITS
+
+Aim:
+To find the sum of the digits of a positive integer.
+
+Algorithm:
+1. Start.
+2. Read integer n.
+3. Set sum = 0.
+4. While n > 0:
+   a. digit = n MOD 10
+   b. sum = sum + digit
+   c. n = n DIV 10
+5. Display sum.
+6. Stop.
+
+Example:
+Input: 527
+Calculation: 7 + 2 + 5
+Output: 14
+
+RAPTOR flowchart blocks:
+Start -> Input n -> Assignment sum = 0 -> Loop condition n > 0?
+YES: digit = n MOD 10; sum = sum + digit; n = n DIV 10 -> return to condition
+NO: Output sum -> Stop
+
+For input 0, this algorithm displays 0. For negative inputs, take the absolute value first if your experiment requires handling them.
